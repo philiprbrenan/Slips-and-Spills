@@ -1,8 +1,8 @@
 app slipsAndSpills=Minimising falls
   maximages = 6
-  icon = https://s26.postimg.org/5aevnrsjb/arabianstallionongrass.jpg
-  author=Janet Bellchambers
-  email =janet@script-city.co.uk
+  icon   = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/bathroom.jpg?raw=true
+  author = Janet Bellchambers
+  email  = ExperiDev1
 
 photo bathroom= Marble bathroom
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/bathroom.jpg?raw=true
