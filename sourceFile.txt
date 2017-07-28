@@ -1,0 +1,48 @@
+app slipsAndSpills=Minimising falls
+  maximages = 6
+  icon = https://s26.postimg.org/5aevnrsjb/arabianstallionongrass.jpg
+  author=Janet Bellchambers
+  email =janet@script-city.co.uk
+
+photo bathroom= Marble bathroom
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/bathroom.jpg?raw=true
+
+fact bathroom.1=Slippery when wet
+fact bathroom.2=Needs non-slip floor
+fact bathroom.3=Needs handrails
+
+photo shoes = Slip-on-sandals
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/shoes.jpg?raw=true
+
+fact shoes.1=Too loose
+fact shoes.2=Does not support feet
+fact shoes.3=Choose a different pair
+
+photo corridor = Long corridor
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/corridor.jpg?raw=true
+
+fact corridor.1=Poor lighting
+fact corridor.2=Add lights
+fact corridor.3=Provide chairs
+
+photo tablets = Tablets
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/tablets.jpg?raw=true
+
+fact tablets.1=Can cause dizziness and confusion
+fact tablets.2=Not sweets
+fact tablets.3=Put in a safe place
+
+photo obstacles = Obstacles
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/obstacles.jpg?raw=true
+
+fact obstacles.1=Difficult to navigate
+fact obstacles.2=Can cause trips and falls
+fact obstacles.3=Clear away to make a path
+
+photo spill = Spill
+  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/spill.jpg?raw=true
+
+fact spills.1=Makes shoes wet
+fact spills.2=Can cause trips and falls
+fact spills.3=Slippery when walked through
+fact spills.3=Wipe up immediately
