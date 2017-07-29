@@ -4,33 +4,35 @@ app slipsAndSpills=Minimising falls
   author = Janet Bellchambers
   email  = ExperiDev1
 
-photo bathroom= Marble bathroom
+photo bathroom= Dangerous bathroom
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/bathroom.jpg?raw=true
 
-fact bathroom.1=Slippery when wet
+fact bathroom.1=Tiles like ice when wet
 fact bathroom.2=Needs non-slip floor
 fact bathroom.3=Needs handrails
 
 photo shoes = Slip-on-sandals
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/shoes.jpg?raw=true
 
-fact shoes.1=Too loose
-fact shoes.2=Does not support feet
-fact shoes.3=Choose a different pair
+fact shoes.1=Slip-ons are dangerous
+fact shoes.2=Too loose
+fact shoes.3=Does not support feet
+fact shoes.4=Choose a different pair
 
-photo corridor = Long corridor
+photo corridor = Long corridor poor lighting
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/corridor.jpg?raw=true
 
-fact corridor.1=Poor lighting
+fact corridor.1=Two fall risks
 fact corridor.2=Add lights
 fact corridor.3=Provide chairs
+fact corridor.4=Chairs are for pit-stops
 
-photo tablets = Tablets
+photo tablets = Medication
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/tablets.jpg?raw=true
 
-fact tablets.1=Can cause dizziness and confusion
-fact tablets.2=Not sweets
-fact tablets.3=Put in a safe place
+fact tablets.1=Medication has side-effects
+fact tablets.2=Can cause dizziness and confusion
+fact tablets.3=Check possible side-effects
 
 photo obstacles = Obstacles
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/obstacles.jpg?raw=true
@@ -39,10 +41,10 @@ fact obstacles.1=Difficult to navigate
 fact obstacles.2=Can cause trips and falls
 fact obstacles.3=Clear away to make a path
 
-photo spill = Spill
+photo spill = Spills on floor
   url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/spill.jpg?raw=true
 
-fact spills.1=Makes shoes wet
-fact spills.2=Can cause trips and falls
+fact spills.1=Will cause slips
+fact spills.2=Wipe-up immediately
 fact spills.3=Slippery when walked through
-fact spills.3=Wipe up immediately
+fact spills.4=Follow safety protocols
