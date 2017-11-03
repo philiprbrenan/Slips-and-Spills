@@ -1,4 +1,4 @@
-app SlipsAndSpills=Minimising falls
+app SlipsAndSpills = Minimising falls
   maximages = 6
   icon   = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/corridor.jpg?raw=true
   author = philiprbrenan
