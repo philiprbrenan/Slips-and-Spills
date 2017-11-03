@@ -18,15 +18,11 @@ Failed.
 2017-11-03 at 18:43:02 Step: genHtmlAssets
 2017-11-03 at 18:43:02 Step: zipAssets
 2017-11-03 at 18:43:02 Step: compileApp
-2017-11-03 at 18:43:02 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:
+2017-11-03 at 18:43:10 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:
 /tmp/AppaAppsPhotoApp/users/philiprbrenan/SlipsAndSpills/
-Unable to create icon:
-convert: no decode delegate for this image format `JPG?RAW=TRUE' @ error/constitute.c/ReadImage/501.
-convert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' @ error/convert.c/ConvertImageCommand/3210.
- at /usr/local/share/perl/5.22.1/Android/Build.pm line 214.
-	Android::Build::pushIcon(Android::Build=HASH(0x32996c0), "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg?raw=true", 48, "m") called at /usr/local/share/perl/5.22.1/Android/Build.pm line 234
-	Android::Build::pushIcons(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 369
-	Android::Build::create(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 570
+Java errors
+ at /usr/local/share/perl/5.22.1/Android/Build.pm line 478.
+	Android::Build::make(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 572
 	Android::Build::compile(Android::Build=HASH(0x32996c0)) called at /usr/bin/AppaAppsPhotoApp.pl line 2008
 	eval {...} called at /usr/bin/AppaAppsPhotoApp.pl line 2008
 	Manifest::compileApp(Manifest=HASH(0x31039f8)) called at /usr/bin/AppaAppsPhotoApp.pl line 461
@@ -42,13 +38,17 @@ do {
       buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
       debug         => 0,
       device        => "emulator-5554",
+      editSource    => undef,
       home          => "/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg?raw=true",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
       keyStorePwd   => "genApp",
       libs          => [],
-      log           => [],
+      log           => [
+                         "/tmp/AppaAppsPhotoApp/build/AndroidManifest.xml:11: error: Error: No resource found that matches the given name (at 'icon' with value '\@drawable/ic_launcher').",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/photoapp/SlipsAndSpills/Activity.java:55: error: package R does not exist\n    parameters  = getResources().getString(R.string.parameters);                // The parameters supplied with the app\n                                            ^\n/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/photoapp/SlipsAndSpills/Activity.java:63: error: package R does not exist\n    packageName = getResources().getString(R.string.packageName);               // The package name of this app == domain.appname\n                                            ^\n2 errors\n1 warning",
+                       ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
       permissions   => ["INTERNET", "ACCESS_NETWORK_STATE"],
@@ -120,7 +120,7 @@ do {
       "2017-11-03 at 18:43:02 Step: genHtmlAssets",
       "2017-11-03 at 18:43:02 Step: zipAssets",
       "2017-11-03 at 18:43:02 Step: compileApp",
-      "2017-11-03 at 18:43:02 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/SlipsAndSpills/\nUnable to create icon:\nconvert: no decode delegate for this image format `JPG?RAW=TRUE' \@ error/constitute.c/ReadImage/501.\nconvert: no images defined `/tmp/AppaAppsPhotoApp/build/icon.png' \@ error/convert.c/ConvertImageCommand/3210.\n at /usr/local/share/perl/5.22.1/Android/Build.pm line 214.\n\tAndroid::Build::pushIcon(Android::Build=HASH(0x32996c0), \"/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg?raw=true\", 48, \"m\") called at /usr/local/share/perl/5.22.1/Android/Build.pm line 234\n\tAndroid::Build::pushIcons(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 369\n\tAndroid::Build::create(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 570\n\tAndroid::Build::compile(Android::Build=HASH(0x32996c0)) called at /usr/bin/AppaAppsPhotoApp.pl line 2008\n\teval {...} called at /usr/bin/AppaAppsPhotoApp.pl line 2008\n\tManifest::compileApp(Manifest=HASH(0x31039f8)) called at /usr/bin/AppaAppsPhotoApp.pl line 461\n\tmain::genApplicationDescriptionFromSourceFile() called at /usr/bin/AppaAppsPhotoApp.pl line 2141\n",
+      "2017-11-03 at 18:43:10 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/SlipsAndSpills/\nJava errors\n at /usr/local/share/perl/5.22.1/Android/Build.pm line 478.\n\tAndroid::Build::make(Android::Build=HASH(0x32996c0)) called at /usr/local/share/perl/5.22.1/Android/Build.pm line 572\n\tAndroid::Build::compile(Android::Build=HASH(0x32996c0)) called at /usr/bin/AppaAppsPhotoApp.pl line 2008\n\teval {...} called at /usr/bin/AppaAppsPhotoApp.pl line 2008\n\tManifest::compileApp(Manifest=HASH(0x31039f8)) called at /usr/bin/AppaAppsPhotoApp.pl line 461\n\tmain::genApplicationDescriptionFromSourceFile() called at /usr/bin/AppaAppsPhotoApp.pl line 2141\n",
     ],
     parsedCmds => [
       'fix',
