@@ -5,45 +5,45 @@ app SlipsAndSpills = Minimising falls
   email  = ExperiDev1
 
 photo bathroom= Dangerous bathroom
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/bathroom.jpg?raw=true
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg
 
 fact bathroom.1=Tiles like ice when wet
 fact bathroom.2=Needs non-slip floor
 fact bathroom.3=Needs handrails
 
 photo shoes = Slip-on-sandals
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/shoes.jpg?raw=true
-
+ url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/shoes.jpg
+ 
 fact shoes.1=Slip-ons are dangerous
 fact shoes.2=Too loose
 fact shoes.3=Does not support feet
 fact shoes.4=Choose a different pair
 
 photo corridor = Long corridor poor lighting
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/corridor.jpg?raw=true
-
+ url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg
+ 
 fact corridor.1=Two fall risks
 fact corridor.2=Add lights
 fact corridor.3=Provide chairs
 fact corridor.4=Chairs are for pit-stops
 
 photo tablets = Medication
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/tablets.jpg?raw=true
-
+ url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/tablets.jpg
+ 
 fact tablets.1=Medication has side-effects
 fact tablets.2=Can cause dizziness and confusion
 fact tablets.3=Check possible side-effects
 
 photo obstacles = Obstacles
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/obstacles.jpg?raw=true
-
+ url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/obstacles.jpg
+ 
 fact obstacles.1=Difficult to navigate
 fact obstacles.2=Can cause trips and falls
 fact obstacles.3=Clear away to make a path
 
 photo spill = Spills on floor
-  url = https://github.com/philiprbrenan/Slips-and-Spills/blob/master/spill.jpg?raw=true
-
+ url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/spill.jpg
+ 
 fact spills.1=Will cause slips
 fact spills.2=Wipe-up immediately
 fact spills.3=Slippery when walked through
