@@ -1,0 +1,54 @@
+app SlipsAndSpills   = Slips and Spills
+  maximages = 6
+  icon      = https://avatars1.githubusercontent.com/u/7548378?v=4
+  author    = philiprbrenan
+  email     = philiprbrenan@gmail.com
+
+
+# Details of photo bathroom
+photo bathroom = Title of bathroom
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg
+
+fact bathroom.1 = First fact about bathroom
+fact bathroom.2 = Another fact about bathroom
+
+
+# Details of photo corridor
+photo corridor = Title of corridor
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg
+
+fact corridor.1 = First fact about corridor
+fact corridor.2 = Another fact about corridor
+
+
+# Details of photo obstacles
+photo obstacles = Title of obstacles
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/obstacles.jpg
+
+fact obstacles.1 = First fact about obstacles
+fact obstacles.2 = Another fact about obstacles
+
+
+# Details of photo shoes
+photo shoes = Title of shoes
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/shoes.jpg
+
+fact shoes.1 = First fact about shoes
+fact shoes.2 = Another fact about shoes
+
+
+# Details of photo spill
+photo spill = Title of spill
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/spill.jpg
+
+fact spill.1 = First fact about spill
+fact spill.2 = Another fact about spill
+
+
+# Details of photo tablets
+photo tablets = Title of tablets
+  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/tablets.jpg
+
+fact tablets.1 = First fact about tablets
+fact tablets.2 = Another fact about tablets
+
