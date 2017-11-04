@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-03 at 18:50:39 Generate AppaAppsPhotoApp version 20171103-2222 philiprbrenan/SlipsAndSpills
+2017-11-04 at 16:36:23 Generate AppaAppsPhotoApp version 20171103-2222 philiprbrenan/SlipsAndSpills
 
-2017-11-03 at 18:50:40 Step: parseSource
-2017-11-03 at 18:50:40 Good source file!
-2017-11-03 at 18:50:40 Step: loadAssets
-2017-11-03 at 18:50:47 Step: multiplyPhotosByFacts
-2017-11-03 at 18:50:47 Step: genJavaManifest
-2017-11-03 at 18:50:47 Step: genJsonManifest
-2017-11-03 at 18:50:47 Step: genGameHtml
-2017-11-03 at 18:50:47 Step: genHtmlAssets
-2017-11-03 at 18:50:47 Step: zipAssets
-2017-11-03 at 18:50:47 Step: compileApp
-2017-11-03 at 18:50:57 Step: copyLinksToGitHub
-2017-11-03 at 18:50:58 Step: copyFilesIntoPositionOnWebServer
+2017-11-04 at 16:36:24 Step: parseSource
+2017-11-04 at 16:36:24 Good source file!
+2017-11-04 at 16:36:24 Step: loadAssets
+2017-11-04 at 16:36:30 Step: multiplyPhotosByFacts
+2017-11-04 at 16:36:30 Step: genJavaManifest
+2017-11-04 at 16:36:30 Step: genJsonManifest
+2017-11-04 at 16:36:30 Step: genGameHtml
+2017-11-04 at 16:36:30 Step: genHtmlAssets
+2017-11-04 at 16:36:30 Step: zipAssets
+2017-11-04 at 16:36:30 Step: compileApp
+2017-11-04 at 16:36:40 Step: copyLinksToGitHub
+2017-11-04 at 16:36:41 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -24,7 +24,7 @@ do {
       debug         => 0,
       device        => "emulator-5554",
       editSource    => undef,
-      home          => "/",
+      home          => "/root/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -34,7 +34,7 @@ do {
                          "",
                          "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nlibpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
@@ -68,7 +68,7 @@ do {
                          "/home/phil/java/unzip/Unzip.java",
                        ],
       title         => "Minimising falls",
-      version       => 20171103,
+      version       => 20171104,
     }, "Android::Build"),
     app => bless({
       cmd => "app",
@@ -93,19 +93,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-03 at 18:50:39 Generate AppaAppsPhotoApp version 20171103-2222 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-03 at 18:50:40 Step: parseSource",
-      "2017-11-03 at 18:50:40 Good source file!",
-      "2017-11-03 at 18:50:40 Step: loadAssets",
-      "2017-11-03 at 18:50:47 Step: multiplyPhotosByFacts",
-      "2017-11-03 at 18:50:47 Step: genJavaManifest",
-      "2017-11-03 at 18:50:47 Step: genJsonManifest",
-      "2017-11-03 at 18:50:47 Step: genGameHtml",
-      "2017-11-03 at 18:50:47 Step: genHtmlAssets",
-      "2017-11-03 at 18:50:47 Step: zipAssets",
-      "2017-11-03 at 18:50:47 Step: compileApp",
-      "2017-11-03 at 18:50:57 Step: copyLinksToGitHub",
-      "2017-11-03 at 18:50:58 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-04 at 16:36:23 Generate AppaAppsPhotoApp version 20171103-2222 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-04 at 16:36:24 Step: parseSource",
+      "2017-11-04 at 16:36:24 Good source file!",
+      "2017-11-04 at 16:36:24 Step: loadAssets",
+      "2017-11-04 at 16:36:30 Step: multiplyPhotosByFacts",
+      "2017-11-04 at 16:36:30 Step: genJavaManifest",
+      "2017-11-04 at 16:36:30 Step: genJsonManifest",
+      "2017-11-04 at 16:36:30 Step: genGameHtml",
+      "2017-11-04 at 16:36:30 Step: genHtmlAssets",
+      "2017-11-04 at 16:36:30 Step: zipAssets",
+      "2017-11-04 at 16:36:30 Step: compileApp",
+      "2017-11-04 at 16:36:40 Step: copyLinksToGitHub",
+      "2017-11-04 at 16:36:41 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
