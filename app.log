@@ -1,26 +1,18 @@
-Failed.
-2017-11-04 at 18:35:17 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+SUCCESS!
+2017-11-04 at 18:44:08 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-04 at 18:35:21 Step: parseSource
-2017-11-04 at 18:35:21 Good source file!
-2017-11-04 at 18:35:21 Step: loadAssets
-2017-11-04 at 18:39:37 Step: multiplyPhotosByFacts
-2017-11-04 at 18:39:37 Step: genJavaManifest
-2017-11-04 at 18:39:37 Step: genJsonManifest
-2017-11-04 at 18:39:37 Step: genGameHtml
-2017-11-04 at 18:39:37 Step: genHtmlAssets
-2017-11-04 at 18:39:37 Step: zipAssets
-2017-11-04 at 18:39:38 Step: compileApp
-2017-11-04 at 18:39:39 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:
-/tmp/AppaAppsPhotoApp/users/philiprbrenan/SlipsAndSpills/
-Java errors
- at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.
-	Android::Build::make(Android::Build=HASH(0x2a89820)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541
-	Android::Build::compile(Android::Build=HASH(0x2a89820)) called at AppaAppsPhotoApp.pl line 2010
-	eval {...} called at AppaAppsPhotoApp.pl line 2010
-	Manifest::compileApp(Manifest=HASH(0x2a02508)) called at AppaAppsPhotoApp.pl line 463
-	main::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2117
-
+2017-11-04 at 18:44:12 Step: parseSource
+2017-11-04 at 18:44:12 Good source file!
+2017-11-04 at 18:44:12 Step: loadAssets
+2017-11-04 at 18:48:18 Step: multiplyPhotosByFacts
+2017-11-04 at 18:48:18 Step: genJavaManifest
+2017-11-04 at 18:48:18 Step: genJsonManifest
+2017-11-04 at 18:48:18 Step: genGameHtml
+2017-11-04 at 18:48:18 Step: genHtmlAssets
+2017-11-04 at 18:48:18 Step: zipAssets
+2017-11-04 at 18:48:18 Step: compileApp
+2017-11-04 at 18:48:22 Step: copyLinksToGitHub
+2017-11-04 at 18:48:26 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -39,7 +31,12 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "/tmp/AppaAppsPhotoApp/build/gen/com/appaapps/photoapp/SlipsAndSpills/Activity.java:480: error: unreported exception NameNotFoundException; must be caught or declared to be thrown\n     (Activity.this.getPackageName(), 0);\n     ^\n1 error",
+                         "",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "",
+                         "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
+                         "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "",
                        ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
@@ -91,21 +88,22 @@ do {
       title => "Minimising falls",
       titleFile => undef,
     }, "ParsedCmd"),
-    error => 1,
+    error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-04 at 18:35:17 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-04 at 18:35:21 Step: parseSource",
-      "2017-11-04 at 18:35:21 Good source file!",
-      "2017-11-04 at 18:35:21 Step: loadAssets",
-      "2017-11-04 at 18:39:37 Step: multiplyPhotosByFacts",
-      "2017-11-04 at 18:39:37 Step: genJavaManifest",
-      "2017-11-04 at 18:39:37 Step: genJsonManifest",
-      "2017-11-04 at 18:39:37 Step: genGameHtml",
-      "2017-11-04 at 18:39:37 Step: genHtmlAssets",
-      "2017-11-04 at 18:39:37 Step: zipAssets",
-      "2017-11-04 at 18:39:38 Step: compileApp",
-      "2017-11-04 at 18:39:39 Unable to create apk file /tmp/AppaAppsPhotoApp/build/bin/SlipsAndSpills.apk in build folder:\n/tmp/AppaAppsPhotoApp/users/philiprbrenan/SlipsAndSpills/\nJava errors\n at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 449.\n\tAndroid::Build::make(Android::Build=HASH(0x2a89820)) called at /home/phil/z/perl/cpan/AndroidBuild/lib/Android/Build.pm line 541\n\tAndroid::Build::compile(Android::Build=HASH(0x2a89820)) called at AppaAppsPhotoApp.pl line 2010\n\teval {...} called at AppaAppsPhotoApp.pl line 2010\n\tManifest::compileApp(Manifest=HASH(0x2a02508)) called at AppaAppsPhotoApp.pl line 463\n\tmain::genApplicationDescriptionFromSourceFile() called at AppaAppsPhotoApp.pl line 2117\n",
+      "2017-11-04 at 18:44:08 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-04 at 18:44:12 Step: parseSource",
+      "2017-11-04 at 18:44:12 Good source file!",
+      "2017-11-04 at 18:44:12 Step: loadAssets",
+      "2017-11-04 at 18:48:18 Step: multiplyPhotosByFacts",
+      "2017-11-04 at 18:48:18 Step: genJavaManifest",
+      "2017-11-04 at 18:48:18 Step: genJsonManifest",
+      "2017-11-04 at 18:48:18 Step: genGameHtml",
+      "2017-11-04 at 18:48:18 Step: genHtmlAssets",
+      "2017-11-04 at 18:48:18 Step: zipAssets",
+      "2017-11-04 at 18:48:18 Step: compileApp",
+      "2017-11-04 at 18:48:22 Step: copyLinksToGitHub",
+      "2017-11-04 at 18:48:26 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -654,7 +652,7 @@ do {
     ],
     source => "app SlipsAndSpills = Minimising falls\n  maximages = 6\n  icon   = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n  author = philiprbrenan\n  email  = ExperiDev1\n\nphoto bathroom= Dangerous bathroom\n  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg\n\nfact bathroom.1=Tiles like ice when wet\nfact bathroom.2=Needs non-slip floor\nfact bathroom.3=Needs handrails\n\nphoto shoes = Slip-on-sandals\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/shoes.jpg\n \nfact shoes.1=Slip-ons are dangerous\nfact shoes.2=Too loose\nfact shoes.3=Does not support feet\nfact shoes.4=Choose a different pair\n\nphoto corridor = Long corridor poor lighting\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n \nfact corridor.1=Two fall risks\nfact corridor.2=Add lights\nfact corridor.3=Provide chairs\nfact corridor.4=Chairs are for pit-stops\n\nphoto tablets = Medication\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/tablets.jpg\n \nfact tablets.1=Medication has side-effects\nfact tablets.2=Can cause dizziness and confusion\nfact tablets.3=Check possible side-effects\n\nphoto obstacles = Obstacles\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/obstacles.jpg\n \nfact obstacles.1=Difficult to navigate\nfact obstacles.2=Can cause trips and falls\nfact obstacles.3=Clear away to make a path\n\nphoto spill = Spills on floor\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/spill.jpg\n \nfact spills.1=Will cause slips\nfact spills.2=Wipe-up immediately\nfact spills.3=Slippery when walked through\nfact spills.4=Follow safety protocols\n",
     sourceFileSha => "6f9974db41f6a67acce523a67bc3a0820b34f57c",
-    step => "compileApp",
+    step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
   $a;
