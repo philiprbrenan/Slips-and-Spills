@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-04 at 19:01:09 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+2017-11-04 at 19:10:49 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-04 at 19:01:13 Step: parseSource
-2017-11-04 at 19:01:13 Good source file!
-2017-11-04 at 19:01:13 Step: loadAssets
-2017-11-04 at 19:01:17 Step: multiplyPhotosByFacts
-2017-11-04 at 19:01:17 Step: genJavaManifest
-2017-11-04 at 19:01:17 Step: genJsonManifest
-2017-11-04 at 19:01:17 Step: genGameHtml
-2017-11-04 at 19:01:17 Step: genHtmlAssets
-2017-11-04 at 19:01:17 Step: zipAssets
-2017-11-04 at 19:01:17 Step: compileApp
-2017-11-04 at 19:01:20 Step: copyLinksToGitHub
-2017-11-04 at 19:01:24 Step: copyFilesIntoPositionOnWebServer
+2017-11-04 at 19:10:53 Step: parseSource
+2017-11-04 at 19:10:53 Good source file!
+2017-11-04 at 19:10:53 Step: loadAssets
+2017-11-04 at 19:10:56 Step: multiplyPhotosByFacts
+2017-11-04 at 19:10:56 Step: genJavaManifest
+2017-11-04 at 19:10:56 Step: genJsonManifest
+2017-11-04 at 19:10:56 Step: genGameHtml
+2017-11-04 at 19:10:56 Step: genHtmlAssets
+2017-11-04 at 19:10:56 Step: zipAssets
+2017-11-04 at 19:10:56 Step: compileApp
+2017-11-04 at 19:10:59 Step: copyLinksToGitHub
+2017-11-04 at 19:11:03 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -91,19 +91,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-04 at 19:01:09 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-04 at 19:01:13 Step: parseSource",
-      "2017-11-04 at 19:01:13 Good source file!",
-      "2017-11-04 at 19:01:13 Step: loadAssets",
-      "2017-11-04 at 19:01:17 Step: multiplyPhotosByFacts",
-      "2017-11-04 at 19:01:17 Step: genJavaManifest",
-      "2017-11-04 at 19:01:17 Step: genJsonManifest",
-      "2017-11-04 at 19:01:17 Step: genGameHtml",
-      "2017-11-04 at 19:01:17 Step: genHtmlAssets",
-      "2017-11-04 at 19:01:17 Step: zipAssets",
-      "2017-11-04 at 19:01:17 Step: compileApp",
-      "2017-11-04 at 19:01:20 Step: copyLinksToGitHub",
-      "2017-11-04 at 19:01:24 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-04 at 19:10:49 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-04 at 19:10:53 Step: parseSource",
+      "2017-11-04 at 19:10:53 Good source file!",
+      "2017-11-04 at 19:10:53 Step: loadAssets",
+      "2017-11-04 at 19:10:56 Step: multiplyPhotosByFacts",
+      "2017-11-04 at 19:10:56 Step: genJavaManifest",
+      "2017-11-04 at 19:10:56 Step: genJsonManifest",
+      "2017-11-04 at 19:10:56 Step: genGameHtml",
+      "2017-11-04 at 19:10:56 Step: genHtmlAssets",
+      "2017-11-04 at 19:10:56 Step: zipAssets",
+      "2017-11-04 at 19:10:56 Step: compileApp",
+      "2017-11-04 at 19:10:59 Step: copyLinksToGitHub",
+      "2017-11-04 at 19:11:03 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
