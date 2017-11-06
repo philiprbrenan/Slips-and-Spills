@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-06 at 18:21:33 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+2017-11-06 at 18:23:22 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-06 at 18:21:34 Step: parseSource
-2017-11-06 at 18:21:34 Good source file!
-2017-11-06 at 18:21:34 Step: loadAssets
-2017-11-06 at 18:21:41 Step: multiplyPhotosByFacts
-2017-11-06 at 18:21:41 Step: genJavaManifest
-2017-11-06 at 18:21:41 Step: genJsonManifest
-2017-11-06 at 18:21:41 Step: genGameHtml
-2017-11-06 at 18:21:41 Step: genHtmlAssets
-2017-11-06 at 18:21:41 Step: zipAssets
-2017-11-06 at 18:21:41 Step: compileApp
-2017-11-06 at 18:21:52 Step: copyLinksToGitHub
-2017-11-06 at 18:21:54 Step: copyFilesIntoPositionOnWebServer
+2017-11-06 at 18:23:26 Step: parseSource
+2017-11-06 at 18:23:26 Good source file!
+2017-11-06 at 18:23:26 Step: loadAssets
+2017-11-06 at 18:23:30 Step: multiplyPhotosByFacts
+2017-11-06 at 18:23:30 Step: genJavaManifest
+2017-11-06 at 18:23:30 Step: genJsonManifest
+2017-11-06 at 18:23:30 Step: genGameHtml
+2017-11-06 at 18:23:30 Step: genHtmlAssets
+2017-11-06 at 18:23:30 Step: zipAssets
+2017-11-06 at 18:23:30 Step: compileApp
+2017-11-06 at 18:23:35 Step: copyLinksToGitHub
+2017-11-06 at 18:23:39 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -20,11 +20,10 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
       debug         => 0,
       device        => "emulator-5554",
-      editSource    => undef,
-      home          => "/root/",
+      home          => "/home/phil/AppaAppsPhotoApp/",
       icon          => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
@@ -32,13 +31,12 @@ do {
       libs          => [],
       log           => [
                          "",
-                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "libpng error: Read Error\nlibpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
-                         "",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "",
                        ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
@@ -47,24 +45,24 @@ do {
       platformTools => "/home/phil/Android/sdk/platform-tools/",
       sdkLevels     => [15, 25],
       src           => [
-                         "/home/phil/java/appState/AppState.java",
-                         "/home/phil/java/choices/Choices.java",
-                         "/home/phil/java/coloursTransformed/ColoursTransformed.java",
-                         "/home/phil/java/download/File.java",
-                         "/home/phil/java/download/Url.java",
-                         "/home/phil/java/email/Email.java",
-                         "/home/phil/java/fourier/Fourier.java",
-                         "/home/phil/java/gradients/Gradients.java",
-                         "/home/phil/java/log/Log.java",
-                         "/home/phil/java/maths/Maths.java",
-                         "/home/phil/java/randomChoice/RandomChoice.java",
-                         "/home/phil/java/save/Save.java",
-                         "/home/phil/java/sound/Midi.java",
-                         "/home/phil/java/sound/Speech.java",
-                         "/home/phil/java/svg/Svg.java",
-                         "/home/phil/java/unpackappdescription/Unpackappdescription.java",
-                         "/home/phil/java/upload/UploadStream.java",
-                         "/home/phil/java/unzip/Unzip.java",
+                         "/home/phil/z/java/appState/AppState.java",
+                         "/home/phil/z/java/choices/Choices.java",
+                         "/home/phil/z/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/z/java/download/File.java",
+                         "/home/phil/z/java/download/Url.java",
+                         "/home/phil/z/java/email/Email.java",
+                         "/home/phil/z/java/fourier/Fourier.java",
+                         "/home/phil/z/java/gradients/Gradients.java",
+                         "/home/phil/z/java/log/Log.java",
+                         "/home/phil/z/java/maths/Maths.java",
+                         "/home/phil/z/java/randomChoice/RandomChoice.java",
+                         "/home/phil/z/java/save/Save.java",
+                         "/home/phil/z/java/sound/Midi.java",
+                         "/home/phil/z/java/sound/Speech.java",
+                         "/home/phil/z/java/svg/Svg.java",
+                         "/home/phil/z/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/z/java/upload/UploadStream.java",
+                         "/home/phil/z/java/unzip/Unzip.java",
                        ],
       title         => "Minimising falls",
       version       => 20171106,
@@ -92,19 +90,19 @@ do {
     error => undef,
     iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-06 at 18:21:33 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-06 at 18:21:34 Step: parseSource",
-      "2017-11-06 at 18:21:34 Good source file!",
-      "2017-11-06 at 18:21:34 Step: loadAssets",
-      "2017-11-06 at 18:21:41 Step: multiplyPhotosByFacts",
-      "2017-11-06 at 18:21:41 Step: genJavaManifest",
-      "2017-11-06 at 18:21:41 Step: genJsonManifest",
-      "2017-11-06 at 18:21:41 Step: genGameHtml",
-      "2017-11-06 at 18:21:41 Step: genHtmlAssets",
-      "2017-11-06 at 18:21:41 Step: zipAssets",
-      "2017-11-06 at 18:21:41 Step: compileApp",
-      "2017-11-06 at 18:21:52 Step: copyLinksToGitHub",
-      "2017-11-06 at 18:21:54 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-06 at 18:23:22 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-06 at 18:23:26 Step: parseSource",
+      "2017-11-06 at 18:23:26 Good source file!",
+      "2017-11-06 at 18:23:26 Step: loadAssets",
+      "2017-11-06 at 18:23:30 Step: multiplyPhotosByFacts",
+      "2017-11-06 at 18:23:30 Step: genJavaManifest",
+      "2017-11-06 at 18:23:30 Step: genJsonManifest",
+      "2017-11-06 at 18:23:30 Step: genGameHtml",
+      "2017-11-06 at 18:23:30 Step: genHtmlAssets",
+      "2017-11-06 at 18:23:30 Step: zipAssets",
+      "2017-11-06 at 18:23:30 Step: compileApp",
+      "2017-11-06 at 18:23:35 Step: copyLinksToGitHub",
+      "2017-11-06 at 18:23:39 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
