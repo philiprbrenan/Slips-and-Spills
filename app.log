@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-07 at 12:43:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+2017-11-07 at 12:45:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-07 at 12:44:05 Step: parseSource
-2017-11-07 at 12:44:05 Good source file!
-2017-11-07 at 12:44:05 Step: loadAssets
-2017-11-07 at 12:44:09 Step: multiplyPhotosByFacts
-2017-11-07 at 12:44:09 Step: genJavaManifest
-2017-11-07 at 12:44:09 Step: genJsonManifest
-2017-11-07 at 12:44:09 Step: genGameHtml
-2017-11-07 at 12:44:09 Step: genHtmlAssets
-2017-11-07 at 12:44:09 Step: zipAssets
-2017-11-07 at 12:44:09 Step: compileApp
-2017-11-07 at 12:44:15 Step: copyLinksToGitHub
-2017-11-07 at 12:44:15 Step: copyFilesIntoPositionOnWebServer
+2017-11-07 at 12:46:02 Step: parseSource
+2017-11-07 at 12:46:02 Good source file!
+2017-11-07 at 12:46:02 Step: loadAssets
+2017-11-07 at 12:46:06 Step: multiplyPhotosByFacts
+2017-11-07 at 12:46:06 Step: genJavaManifest
+2017-11-07 at 12:46:06 Step: genJsonManifest
+2017-11-07 at 12:46:06 Step: genGameHtml
+2017-11-07 at 12:46:06 Step: genHtmlAssets
+2017-11-07 at 12:46:06 Step: zipAssets
+2017-11-07 at 12:46:06 Step: compileApp
+2017-11-07 at 12:46:10 Step: copyLinksToGitHub
+2017-11-07 at 12:46:13 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -32,13 +32,11 @@ do {
       log           => [
                          "",
                          "",
-                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: bad adaptive filter value\nlibpng error: bad adaptive filter value\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
                          "",
-                         "Success",
-                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.SlipsAndSpills/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
@@ -92,19 +90,19 @@ do {
     error => undef,
     iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-07 at 12:43:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-07 at 12:44:05 Step: parseSource",
-      "2017-11-07 at 12:44:05 Good source file!",
-      "2017-11-07 at 12:44:05 Step: loadAssets",
-      "2017-11-07 at 12:44:09 Step: multiplyPhotosByFacts",
-      "2017-11-07 at 12:44:09 Step: genJavaManifest",
-      "2017-11-07 at 12:44:09 Step: genJsonManifest",
-      "2017-11-07 at 12:44:09 Step: genGameHtml",
-      "2017-11-07 at 12:44:09 Step: genHtmlAssets",
-      "2017-11-07 at 12:44:09 Step: zipAssets",
-      "2017-11-07 at 12:44:09 Step: compileApp",
-      "2017-11-07 at 12:44:15 Step: copyLinksToGitHub",
-      "2017-11-07 at 12:44:15 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-07 at 12:45:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-07 at 12:46:02 Step: parseSource",
+      "2017-11-07 at 12:46:02 Good source file!",
+      "2017-11-07 at 12:46:02 Step: loadAssets",
+      "2017-11-07 at 12:46:06 Step: multiplyPhotosByFacts",
+      "2017-11-07 at 12:46:06 Step: genJavaManifest",
+      "2017-11-07 at 12:46:06 Step: genJsonManifest",
+      "2017-11-07 at 12:46:06 Step: genGameHtml",
+      "2017-11-07 at 12:46:06 Step: genHtmlAssets",
+      "2017-11-07 at 12:46:06 Step: zipAssets",
+      "2017-11-07 at 12:46:06 Step: compileApp",
+      "2017-11-07 at 12:46:10 Step: copyLinksToGitHub",
+      "2017-11-07 at 12:46:13 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
