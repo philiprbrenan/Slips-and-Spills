@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-07 at 12:45:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+2017-11-07 at 22:20:06 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-07 at 12:46:02 Step: parseSource
-2017-11-07 at 12:46:02 Good source file!
-2017-11-07 at 12:46:02 Step: loadAssets
-2017-11-07 at 12:46:06 Step: multiplyPhotosByFacts
-2017-11-07 at 12:46:06 Step: genJavaManifest
-2017-11-07 at 12:46:06 Step: genJsonManifest
-2017-11-07 at 12:46:06 Step: genGameHtml
-2017-11-07 at 12:46:06 Step: genHtmlAssets
-2017-11-07 at 12:46:06 Step: zipAssets
-2017-11-07 at 12:46:06 Step: compileApp
-2017-11-07 at 12:46:10 Step: copyLinksToGitHub
-2017-11-07 at 12:46:13 Step: copyFilesIntoPositionOnWebServer
+2017-11-07 at 22:20:07 Step: parseSource
+2017-11-07 at 22:20:07 Good source file!
+2017-11-07 at 22:20:07 Step: loadAssets
+2017-11-07 at 22:20:14 Step: multiplyPhotosByFacts
+2017-11-07 at 22:20:14 Step: genJavaManifest
+2017-11-07 at 22:20:14 Step: genJsonManifest
+2017-11-07 at 22:20:14 Step: genGameHtml
+2017-11-07 at 22:20:14 Step: genHtmlAssets
+2017-11-07 at 22:20:14 Step: zipAssets
+2017-11-07 at 22:20:15 Step: compileApp
+2017-11-07 at 22:20:26 Step: copyLinksToGitHub
+2017-11-07 at 22:20:28 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -20,23 +20,25 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
       debug         => 0,
       device        => "emulator-5554",
-      home          => "/home/phil/AppaAppsPhotoApp/",
-      icon          => "/home/phil/AppaAppsPhotoApp/cache/images/corridor.jpg",
+      editSource    => undef,
+      home          => "/",
+      icon          => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
       keyStorePwd   => "genApp",
       libs          => [],
       log           => [
                          "",
+                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "libpng error: bad adaptive filter value\nlibpng error: bad adaptive filter value\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
+                         "",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
-                         "",
                        ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
@@ -45,24 +47,24 @@ do {
       platformTools => "/home/phil/Android/sdk/platform-tools/",
       sdkLevels     => [15, 25],
       src           => [
-                         "/home/phil/z/java/appState/AppState.java",
-                         "/home/phil/z/java/choices/Choices.java",
-                         "/home/phil/z/java/coloursTransformed/ColoursTransformed.java",
-                         "/home/phil/z/java/download/File.java",
-                         "/home/phil/z/java/download/Url.java",
-                         "/home/phil/z/java/email/Email.java",
-                         "/home/phil/z/java/fourier/Fourier.java",
-                         "/home/phil/z/java/gradients/Gradients.java",
-                         "/home/phil/z/java/log/Log.java",
-                         "/home/phil/z/java/maths/Maths.java",
-                         "/home/phil/z/java/randomChoice/RandomChoice.java",
-                         "/home/phil/z/java/save/Save.java",
-                         "/home/phil/z/java/sound/Midi.java",
-                         "/home/phil/z/java/sound/Speech.java",
-                         "/home/phil/z/java/svg/Svg.java",
-                         "/home/phil/z/java/unpackappdescription/Unpackappdescription.java",
-                         "/home/phil/z/java/upload/UploadStream.java",
-                         "/home/phil/z/java/unzip/Unzip.java",
+                         "/home/phil/java/appState/AppState.java",
+                         "/home/phil/java/choices/Choices.java",
+                         "/home/phil/java/coloursTransformed/ColoursTransformed.java",
+                         "/home/phil/java/download/File.java",
+                         "/home/phil/java/download/Url.java",
+                         "/home/phil/java/email/Email.java",
+                         "/home/phil/java/fourier/Fourier.java",
+                         "/home/phil/java/gradients/Gradients.java",
+                         "/home/phil/java/log/Log.java",
+                         "/home/phil/java/maths/Maths.java",
+                         "/home/phil/java/randomChoice/RandomChoice.java",
+                         "/home/phil/java/save/Save.java",
+                         "/home/phil/java/sound/Midi.java",
+                         "/home/phil/java/sound/Speech.java",
+                         "/home/phil/java/svg/Svg.java",
+                         "/home/phil/java/unpackappdescription/Unpackappdescription.java",
+                         "/home/phil/java/upload/UploadStream.java",
+                         "/home/phil/java/unzip/Unzip.java",
                        ],
       title         => "Minimising falls",
       version       => 20171107,
@@ -75,7 +77,7 @@ do {
       parsedKeys => bless({
         author    => "philiprbrenan",
         cmd       => "app",
-        email     => "ExperiDev1",
+        email     => "philiprbrenan\@gmail.com",
         icon      => "https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg",
         language  => "en",
         maximages => 6,
@@ -88,21 +90,21 @@ do {
       titleFile => undef,
     }, "ParsedCmd"),
     error => undef,
-    iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/corridor.jpg",
+    iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-07 at 12:45:58 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-07 at 12:46:02 Step: parseSource",
-      "2017-11-07 at 12:46:02 Good source file!",
-      "2017-11-07 at 12:46:02 Step: loadAssets",
-      "2017-11-07 at 12:46:06 Step: multiplyPhotosByFacts",
-      "2017-11-07 at 12:46:06 Step: genJavaManifest",
-      "2017-11-07 at 12:46:06 Step: genJsonManifest",
-      "2017-11-07 at 12:46:06 Step: genGameHtml",
-      "2017-11-07 at 12:46:06 Step: genHtmlAssets",
-      "2017-11-07 at 12:46:06 Step: zipAssets",
-      "2017-11-07 at 12:46:06 Step: compileApp",
-      "2017-11-07 at 12:46:10 Step: copyLinksToGitHub",
-      "2017-11-07 at 12:46:13 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-07 at 22:20:06 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-07 at 22:20:07 Step: parseSource",
+      "2017-11-07 at 22:20:07 Good source file!",
+      "2017-11-07 at 22:20:07 Step: loadAssets",
+      "2017-11-07 at 22:20:14 Step: multiplyPhotosByFacts",
+      "2017-11-07 at 22:20:14 Step: genJavaManifest",
+      "2017-11-07 at 22:20:14 Step: genJsonManifest",
+      "2017-11-07 at 22:20:14 Step: genGameHtml",
+      "2017-11-07 at 22:20:14 Step: genHtmlAssets",
+      "2017-11-07 at 22:20:14 Step: zipAssets",
+      "2017-11-07 at 22:20:15 Step: compileApp",
+      "2017-11-07 at 22:20:26 Step: copyLinksToGitHub",
+      "2017-11-07 at 22:20:28 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
@@ -649,8 +651,8 @@ do {
         titleFile => undef,
       }, "ParsedCmd"),
     ],
-    source => "app SlipsAndSpills = Minimising falls\n  maximages = 6\n  icon   = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n  author = philiprbrenan\n  email  = ExperiDev1\n\nphoto bathroom= Dangerous bathroom\n  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg\n\nfact bathroom.1=Tiles like ice when wet\nfact bathroom.2=Needs non-slip floor\nfact bathroom.3=Needs handrails\n\nphoto shoes = Slip-on-sandals\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/shoes.jpg\n \nfact shoes.1=Slip-ons are dangerous\nfact shoes.2=Too loose\nfact shoes.3=Does not support feet\nfact shoes.4=Choose a different pair\n\nphoto corridor = Long corridor poor lighting\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n \nfact corridor.1=Two fall risks\nfact corridor.2=Add lights\nfact corridor.3=Provide chairs\nfact corridor.4=Chairs are for pit-stops\n\nphoto tablets = Medication\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/tablets.jpg\n \nfact tablets.1=Medication has side-effects\nfact tablets.2=Can cause dizziness and confusion\nfact tablets.3=Check possible side-effects\n\nphoto obstacles = Obstacles\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/obstacles.jpg\n \nfact obstacles.1=Difficult to navigate\nfact obstacles.2=Can cause trips and falls\nfact obstacles.3=Clear away to make a path\n\nphoto spill = Spills on floor\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/spill.jpg\n \nfact spills.1=Will cause slips\nfact spills.2=Wipe-up immediately\nfact spills.3=Slippery when walked through\nfact spills.4=Follow safety protocols\n",
-    sourceFileSha => "6f9974db41f6a67acce523a67bc3a0820b34f57c",
+    source => "app SlipsAndSpills = Minimising falls\n  maximages = 6\n  icon   = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n  author = philiprbrenan\n  email  = philiprbrenan\@gmail.com\n\nphoto bathroom= Dangerous bathroom\n  url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg\n\nfact bathroom.1=Tiles like ice when wet\nfact bathroom.2=Needs non-slip floor\nfact bathroom.3=Needs handrails\n\nphoto shoes = Slip-on-sandals\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/shoes.jpg\n \nfact shoes.1=Slip-ons are dangerous\nfact shoes.2=Too loose\nfact shoes.3=Does not support feet\nfact shoes.4=Choose a different pair\n\nphoto corridor = Long corridor poor lighting\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg\n \nfact corridor.1=Two fall risks\nfact corridor.2=Add lights\nfact corridor.3=Provide chairs\nfact corridor.4=Chairs are for pit-stops\n\nphoto tablets = Medication\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/tablets.jpg\n \nfact tablets.1=Medication has side-effects\nfact tablets.2=Can cause dizziness and confusion\nfact tablets.3=Check possible side-effects\n\nphoto obstacles = Obstacles\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/obstacles.jpg\n \nfact obstacles.1=Difficult to navigate\nfact obstacles.2=Can cause trips and falls\nfact obstacles.3=Clear away to make a path\n\nphoto spill = Spills on floor\n url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/spill.jpg\n \nfact spills.1=Will cause slips\nfact spills.2=Wipe-up immediately\nfact spills.3=Slippery when walked through\nfact spills.4=Follow safety protocols\n",
+    sourceFileSha => "ac1637010b834626e266553107acb8fc7cf93fe4",
     step => "completed",
   }, "Manifest");
   $a->{parsedCmds}[0] = $a->{app};
