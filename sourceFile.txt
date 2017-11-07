@@ -2,7 +2,7 @@ app SlipsAndSpills = Minimising falls
   maximages = 6
   icon   = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/corridor.jpg
   author = philiprbrenan
-  email  = philip.rbrenan@gmail.com
+  email  = philip.r.brenan@gmail.com
 
 photo bathroom= Dangerous bathroom
   url = https://raw.githubusercontent.com/philiprbrenan/SlipsAndSpills/master/images/bathroom.jpg
