@@ -1,18 +1,18 @@
 SUCCESS!
-2017-11-07 at 22:20:06 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
+2017-11-07 at 22:21:57 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills
 
-2017-11-07 at 22:20:07 Step: parseSource
-2017-11-07 at 22:20:07 Good source file!
-2017-11-07 at 22:20:07 Step: loadAssets
-2017-11-07 at 22:20:14 Step: multiplyPhotosByFacts
-2017-11-07 at 22:20:14 Step: genJavaManifest
-2017-11-07 at 22:20:14 Step: genJsonManifest
-2017-11-07 at 22:20:14 Step: genGameHtml
-2017-11-07 at 22:20:14 Step: genHtmlAssets
-2017-11-07 at 22:20:14 Step: zipAssets
-2017-11-07 at 22:20:15 Step: compileApp
-2017-11-07 at 22:20:26 Step: copyLinksToGitHub
-2017-11-07 at 22:20:28 Step: copyFilesIntoPositionOnWebServer
+2017-11-07 at 22:22:01 Step: parseSource
+2017-11-07 at 22:22:01 Good source file!
+2017-11-07 at 22:22:01 Step: loadAssets
+2017-11-07 at 22:22:06 Step: multiplyPhotosByFacts
+2017-11-07 at 22:22:06 Step: genJavaManifest
+2017-11-07 at 22:22:06 Step: genJsonManifest
+2017-11-07 at 22:22:06 Step: genGameHtml
+2017-11-07 at 22:22:06 Step: genHtmlAssets
+2017-11-07 at 22:22:06 Step: zipAssets
+2017-11-07 at 22:22:06 Step: compileApp
+2017-11-07 at 22:22:10 Step: copyLinksToGitHub
+2017-11-07 at 22:22:10 Step: copyFilesIntoPositionOnWebServer
 --------------------------------------------------------------------------------
 do {
   my $a = bless({
@@ -20,25 +20,25 @@ do {
       action        => "run",
       activity      => "Activity",
       buildFolder   => "/tmp/AppaAppsPhotoApp/build/",
-      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.3/",
+      buildTools    => "/home/phil/Android/sdk/build-tools/25.0.2/",
       debug         => 0,
       device        => "emulator-5554",
-      editSource    => undef,
-      home          => "/",
-      icon          => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
+      home          => "/home/phil/AppaAppsPhotoApp/",
+      icon          => "/home/phil/AppaAppsPhotoApp/cache/images/corridor.jpg",
       keyAlias      => "genApp",
       keyStoreFile  => "/home/phil/AppaAppsPhotoApp/keys/genApp.keystore",
       keyStorePwd   => "genApp",
       libs          => [],
       log           => [
                          "",
-                         "warning: [options] bootstrap class path not set in conjunction with -source 1.7\n1 warning",
                          "",
-                         "libpng error: Read Error\nCrunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
-                         "",
+                         "Crunching PNG Files in source dir: /tmp/AppaAppsPhotoApp/build/res/\nTo destination dir: /tmp/AppaAppsPhotoApp/build/bin//tmp/AppaAppsPhotoApp/build/res",
                          "",
                          "Enter Passphrase for keystore: jar signed.\n\nWarning: \nNo -tsa or -tsacert is provided and this jar is not timestamped. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.",
                          "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is not validated.\nThis jar contains signatures that does not include a timestamp. Without a timestamp, users may not be able to validate this jar after the signer certificate's expiration date (2044-09-10) or after any future revocation date.\n\nRe-run with the -verbose and -certs options for more details.",
+                         "",
+                         "Success",
+                         "Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.appaapps.photoapp.SlipsAndSpills/.Activity }",
                        ],
       package       => "com.appaapps.photoapp.SlipsAndSpills",
       parameters    => "philiprbrenan,SlipsAndSpills,http://www.appaapps.com/users/philiprbrenan/SlipsAndSpills/zip/SlipsAndSpills.zip",
@@ -50,8 +50,7 @@ do {
                          "/home/phil/java/appState/AppState.java",
                          "/home/phil/java/choices/Choices.java",
                          "/home/phil/java/coloursTransformed/ColoursTransformed.java",
-                         "/home/phil/java/download/File.java",
-                         "/home/phil/java/download/Url.java",
+                         "/home/phil/java/download/Download.java",
                          "/home/phil/java/email/Email.java",
                          "/home/phil/java/fourier/Fourier.java",
                          "/home/phil/java/gradients/Gradients.java",
@@ -90,21 +89,21 @@ do {
       titleFile => undef,
     }, "ParsedCmd"),
     error => undef,
-    iconFile => "/tmp/AppaAppsPhotoApp/cache/images/corridor.jpg",
+    iconFile => "/home/phil/AppaAppsPhotoApp/cache/images/corridor.jpg",
     log => [
-      "2017-11-07 at 22:20:06 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
-      "2017-11-07 at 22:20:07 Step: parseSource",
-      "2017-11-07 at 22:20:07 Good source file!",
-      "2017-11-07 at 22:20:07 Step: loadAssets",
-      "2017-11-07 at 22:20:14 Step: multiplyPhotosByFacts",
-      "2017-11-07 at 22:20:14 Step: genJavaManifest",
-      "2017-11-07 at 22:20:14 Step: genJsonManifest",
-      "2017-11-07 at 22:20:14 Step: genGameHtml",
-      "2017-11-07 at 22:20:14 Step: genHtmlAssets",
-      "2017-11-07 at 22:20:14 Step: zipAssets",
-      "2017-11-07 at 22:20:15 Step: compileApp",
-      "2017-11-07 at 22:20:26 Step: copyLinksToGitHub",
-      "2017-11-07 at 22:20:28 Step: copyFilesIntoPositionOnWebServer",
+      "2017-11-07 at 22:21:57 Generate AppaAppsPhotoApp version 20171104-111 philiprbrenan/SlipsAndSpills\n",
+      "2017-11-07 at 22:22:01 Step: parseSource",
+      "2017-11-07 at 22:22:01 Good source file!",
+      "2017-11-07 at 22:22:01 Step: loadAssets",
+      "2017-11-07 at 22:22:06 Step: multiplyPhotosByFacts",
+      "2017-11-07 at 22:22:06 Step: genJavaManifest",
+      "2017-11-07 at 22:22:06 Step: genJsonManifest",
+      "2017-11-07 at 22:22:06 Step: genGameHtml",
+      "2017-11-07 at 22:22:06 Step: genHtmlAssets",
+      "2017-11-07 at 22:22:06 Step: zipAssets",
+      "2017-11-07 at 22:22:06 Step: compileApp",
+      "2017-11-07 at 22:22:10 Step: copyLinksToGitHub",
+      "2017-11-07 at 22:22:10 Step: copyFilesIntoPositionOnWebServer",
     ],
     parsedCmds => [
       'fix',
